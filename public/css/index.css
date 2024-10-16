@@ -1,0 +1,38 @@
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Fundo cinza claro */
+}
+
+.titulo{
+    color: #000000; /* Azul para o título */
+    text-align: center; /* Centraliza o título */
+}
+
+.modulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    gap: 10px;
+    background-color: #e9ecef;
+    gap: 10px;
+}
+
+.modulos a {
+    display: inline-block;         /* Permite adicionar padding e margens */
+    padding: 10px 20px;           /* Padding interno para dar aspecto de botão */
+    background-color: #a0a0a0;    /* Cor de fundo do botão */
+    color: rgb(0, 0, 0);                  /* Cor do texto */
+    text-decoration: none;         /* Remove sublinhado do link */
+    border-radius: 5px;           /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Efeito suave para a cor ao passar o mouse */
+}
+
+.modulos a:hover {
+    color: grey;
+}
